@@ -1,0 +1,16 @@
+C:\Users\mattm\source\repos\UTC\UTC\bin\Debug\net5.0\UTC.exe
+C:\Users\mattm\source\repos\UTC\UTC\bin\Debug\net5.0\UTC.deps.json
+C:\Users\mattm\source\repos\UTC\UTC\bin\Debug\net5.0\UTC.runtimeconfig.json
+C:\Users\mattm\source\repos\UTC\UTC\bin\Debug\net5.0\UTC.runtimeconfig.dev.json
+C:\Users\mattm\source\repos\UTC\UTC\bin\Debug\net5.0\UTC.dll
+C:\Users\mattm\source\repos\UTC\UTC\bin\Debug\net5.0\ref\UTC.dll
+C:\Users\mattm\source\repos\UTC\UTC\bin\Debug\net5.0\UTC.pdb
+C:\Users\mattm\source\repos\UTC\UTC\obj\Debug\net5.0\UTC.csproj.AssemblyReference.cache
+C:\Users\mattm\source\repos\UTC\UTC\obj\Debug\net5.0\UTC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mattm\source\repos\UTC\UTC\obj\Debug\net5.0\UTC.AssemblyInfoInputs.cache
+C:\Users\mattm\source\repos\UTC\UTC\obj\Debug\net5.0\UTC.AssemblyInfo.cs
+C:\Users\mattm\source\repos\UTC\UTC\obj\Debug\net5.0\UTC.csproj.CoreCompileInputs.cache
+C:\Users\mattm\source\repos\UTC\UTC\obj\Debug\net5.0\UTC.dll
+C:\Users\mattm\source\repos\UTC\UTC\obj\Debug\net5.0\ref\UTC.dll
+C:\Users\mattm\source\repos\UTC\UTC\obj\Debug\net5.0\UTC.pdb
+C:\Users\mattm\source\repos\UTC\UTC\obj\Debug\net5.0\UTC.genruntimeconfig.cache
