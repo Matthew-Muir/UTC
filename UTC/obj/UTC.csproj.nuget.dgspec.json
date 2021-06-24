@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mattm\\source\\repos\\UTC\\UTC\\UTC.csproj": {}
+    "C:\\Users\\coded\\source\\repos\\UTC\\UTC\\UTC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mattm\\source\\repos\\UTC\\UTC\\UTC.csproj": {
+    "C:\\Users\\coded\\source\\repos\\UTC\\UTC\\UTC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mattm\\source\\repos\\UTC\\UTC\\UTC.csproj",
+        "projectUniqueName": "C:\\Users\\coded\\source\\repos\\UTC\\UTC\\UTC.csproj",
         "projectName": "UTC",
-        "projectPath": "C:\\Users\\mattm\\source\\repos\\UTC\\UTC\\UTC.csproj",
-        "packagesPath": "C:\\Users\\mattm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mattm\\source\\repos\\UTC\\UTC\\obj\\",
+        "projectPath": "C:\\Users\\coded\\source\\repos\\UTC\\UTC\\UTC.csproj",
+        "packagesPath": "C:\\Users\\coded\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\coded\\source\\repos\\UTC\\UTC\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\mattm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\coded\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

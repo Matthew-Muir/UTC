@@ -1,5 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
+using System.IO;
+using System.Net.Sockets;
 
 namespace UTC
 {
@@ -28,6 +31,8 @@ namespace UTC
             dateTime = DateTime.SpecifyKind(dateTime, DateTimeKind.Local);
 
             Console.WriteLine($"{pstOneAM} - " + ConvertToUTC(dateTime));
+
+            GetNISTdtUTC();
             
 
         }
@@ -77,6 +82,24 @@ namespace UTC
             }
 
             return convertedToUTC;
+        }
+
+        public static void GetNISTdtUTC()
+        {
+            var client = new TcpClient("time-d-b.nist.gov", 13);
+            using (var streamReader = new StreamReader(client.GetStream()))
+            {
+
+                var response = streamReader.ReadToEnd();
+                Console.WriteLine(response);
+
+                var utcDateTimeString = response.Substring(7, 17);
+                var utcHold = DateTime.ParseExact(utcDateTimeString, "yy-MM-dd HH:mm:ss", CultureInfo.CurrentCulture);
+                DateTime utcDateTime = DateTime.SpecifyKind(utcHold, DateTimeKind.Utc);
+
+                Console.WriteLine(utcDateTime);
+
+            }
         }
 
 
